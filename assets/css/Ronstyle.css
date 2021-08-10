@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  padding: 5;
+  margin: 10;
 }
 
 body {
@@ -10,12 +10,12 @@ body {
   
   margin: 0;
   
-  background-color: #eee2f1;
+  background-color:whitesmoke;
 }
 a {
-color: cornsilk;
+color: rgb(214, 194, 12);
 text-decoration: none;
-font-size: 1.3rem;
+font-size: 1.8rem;
 
 }
 
@@ -24,21 +24,24 @@ main {
   display: flex;
   /* Forces elements to the next line if they don't fit */
   flex-wrap: wrap;
-  margin-top: 5%;
+  margin-top: 1%;
 }
 
 .main-header {
   display: flex;
   /* Forces elements to the next line if they don't fit */
   flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 25px;
-  background: #13293d;
-  color: #fff;
+  justify-content:space-evenly;
+  padding: 5px;
+  margin:5px;
+  background:seagreen;
+    color:beige;
+  /* box-shadow: 0 0 5px rgba(0, 0, 10, 0.25); */
   
 }
 .main-header h1 {
   font-size: 2.5rem;
+  font-weight: bold;
 }
 
 
@@ -48,14 +51,15 @@ main {
     /* Forces elements to the next line if they don't fit */
     flex-wrap: wrap;
     text-align: center;
-    padding: 20px;
-    background: #fff
-    color: rgb(23, 42, 214);
+    padding: 25px;
+    background:teal;
+    color:antiquewhite;
     /* margin-bottom: 50%; */
   }
 
 #projects{
   display: flex;
+  background-color: darkseagreen;
 }
 
 .project {
@@ -63,9 +67,9 @@ main {
   padding: 10px;
   text-align: center;
   border-style: solid;
-  border-width: 1px;
+  border-width: 20px;
   
-  background: #097596;
+  background:teal;
   color: #fff;
 }
 
@@ -80,18 +84,63 @@ main {
   min-width: 400px;
 }
 
+/*   new addition    */
+
+
+.mainProject {
+  flex: 1 0 0;
+  padding: 20px;
+  text-align: center;
+  border-style: solid;
+  border-width: 20px;
+  
+  background:teal;
+  color: #fff;
+}
+
+.mainProject header {
+  padding: 20px;
+  background: #13293d;
+  color: #fff;
+}
+
+.mainProject img {
+  width: 100%;
+  min-width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    background-color: cornsilk;
+    background-color:teal;
 }
 
 footer h2 {
     font-size: 30px;
 }
-
+p{
+  font-size: 20px;
+  font-style: italic;
+  
+}
 @media screen and (max-width: 780px){
   #projects {
     flex-direction: column;
