@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
-  padding: 5;
-  margin: 10;
+  /* padding:100%; */
+  /* margin:1vw */
 }
 
 body {
@@ -44,17 +44,17 @@ main {
   font-weight: bold;
 }
 
-
-
 .aboutMe {
     display: flex;
     /* Forces elements to the next line if they don't fit */
     flex-wrap: wrap;
     text-align: center;
-    padding: 25px;
+    justify-content:space-evenly;
+    padding: 5px;
+   max-width:100%;
     background:teal;
     color:antiquewhite;
-    /* margin-bottom: 50%; */
+   
   }
 
 #projects{
@@ -106,7 +106,7 @@ main {
 
 .mainProject img {
   width: 100%;
-  min-width: 400px;
+  min-width: 300px;
 }
 
 
