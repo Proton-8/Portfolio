@@ -1,27 +1,23 @@
+
+/* my custom settings for the main page */
 * {
   box-sizing: border-box;
-  /* padding:100%; */
-  /* margin:1vw */
 }
 
 body {
-
   font-family: Arial;
-  
   margin: 0;
-  
-  background-color:whitesmoke;
+  background-color: whitesmoke;
 }
-a {
-color: rgb(214, 194, 12);
-text-decoration: none;
-font-size: 1.8rem;
 
+a {
+  color: rgb(214, 194, 12);
+  text-decoration: none;
+  font-size: 1.8rem;
 }
 
 
 main {
-  /* display: flex; */
   /* Forces elements to the next line if they don't fit */
   flex-wrap: wrap;
   margin-top: 1%;
@@ -31,43 +27,44 @@ main {
   display: flex;
   /* Forces elements to the next line if they don't fit */
   flex-wrap: wrap;
-  justify-content:flex-end;
+  justify-content: flex-end;
   padding: 5px;
-  margin:5px;
-  background:teal;
-    color:beige;
-  /* box-shadow: 0 0 5px rgba(0, 0, 10, 0.25); */
-  
+  margin: 5px;
+  background: teal;
+  color: beige;
 }
-.top{
+
+.top {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width:75%;
+  width: 75%;
 }
-.mainName, 
-.mug{
+
+.mainName,
+.mug {
   align-self: center;
 }
+
 .main-header h1 {
   font-size: 2.5rem;
   font-weight: bold;
 }
 
 .aboutMe {
-    display: flex;
-    /* Forces elements to the next line if they don't fit */
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content:space-evenly;
-    padding: 5px;
-   max-width:100%;
-    background:teal;
-    color:antiquewhite;
-   
-  }
+  display: flex;
+  /* Forces elements to the next line if they don't fit */
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-evenly;
+  padding: 5px;
+  max-width: 100%;
+  background: teal;
+  color: antiquewhite;
 
-#projects{
+}
+
+#projects {
   display: flex;
   background-color: darkseagreen;
 }
@@ -78,8 +75,8 @@ main {
   text-align: center;
   border-style: solid;
   border-width: 20px;
-  
-  background:teal;
+
+  background: teal;
   color: #fff;
 }
 
@@ -94,8 +91,7 @@ main {
   min-width: 400px;
 }
 
-/*   new addition    */
-
+/*   new addition to original code   */
 
 .mainProject {
   flex: 1 0 0;
@@ -103,8 +99,8 @@ main {
   text-align: center;
   border-style: solid;
   border-width: 20px;
-  
-  background:teal;
+
+  background: teal;
   color: #fff;
 }
 
@@ -119,39 +115,27 @@ main {
   min-width: 300px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* footer format stuff */
 
 footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    background-color:teal;
+  padding: 30px;
+  clear: both;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  background-color: teal;
 }
 
 footer h2 {
-    font-size: 30px;
+  font-size: 30px;
 }
-p{
+
+p {
   font-size: 20px;
   font-style: italic;
-  
+
 }
-@media screen and (max-width: 780px){
+/* mobile option */
+@media screen and (max-width: 780px) {
   #projects {
     flex-direction: column;
   }
